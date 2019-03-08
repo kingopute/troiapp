@@ -1,0 +1,34 @@
+page-devotionaldetails {
+
+ion-content {
+         background-color: #fff !important;
+    }
+ ion-content {
+        background-color: #000 !important;
+    }
+    .image {
+        width: 100%;
+        //height: auto;
+        max-height: 350px;
+    }
+    .title{
+        font-family: home;
+    }
+
+    h4 {
+        text-align: center;
+        color: #fff;
+     font-family: home;
+    }
+
+
+    .description {
+        color: #fff;
+        font-family: home;
+        font-size: 14px;
+        margin-top: -1vh;
+    }
+    ion-icon{
+color: #fff;
+}
+}

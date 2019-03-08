@@ -1,0 +1,47 @@
+<ion-header>
+
+   <ion-navbar color="primary">
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>More</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content>
+
+
+
+
+
+
+<div class="wrapper">
+  
+  <a href="#" class="btn-base btn-cta btn-2" *ngFor="let subitem of more.vision" (tap)="vision($event, subitem)">
+    <span>Vision & Mission</span>
+  </a>
+  <a href="#" class="btn-base btn-cta btn-3" *ngFor="let subitem of more.about" (tap)="about($event, subitem)">
+    <span>About Us</span>
+  </a>
+  <a href="#" class="btn-base btn-cta btn-4" *ngFor="let subitem of more.connect" (tap)="connect($event, subitem)">
+    <span>Contact Us</span>
+  </a>
+  <a href="#" class="btn-base btn-cta btn-5" *ngFor="let subitem of more.social" (tap)="social($event, subitem)">
+    <span>Social Media</span>
+  </a>
+  
+</div>
+
+
+
+
+
+
+
+
+
+ 
+
+</ion-content>
