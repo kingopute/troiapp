@@ -256,7 +256,7 @@ initApp(){
     //this.statusBar.backgroundColorByHexString('#ffffff');
 
 
-    this.oneSignal.startInit('928f9393-947c-4fd7-9fdd-5fdbfb9fd7fa', '716893243943');
+    this.oneSignal.startInit('e94ff665-7f20-4675-97e3-5ddd45828305', '351782808779');
     
     this.oneSignal.setSubscription(true);
     //this.oneSignal.inFocusDisplaying(this.oneSignal.OSInFocusDisplayOption.InAppAlert);
