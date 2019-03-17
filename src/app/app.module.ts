@@ -29,7 +29,7 @@ import { AboutPage } from '../pages/about/about';
 import { PopoverPage } from '../pages/about-popover/about-popover';
 import { AccountPage } from '../pages/account/account';
 import { LoginPage } from '../pages/login/login';
-import { MapPage } from '../pages/map/map';
+
 import { SchedulePage } from '../pages/schedule/schedule';
 import { ScheduleFilterPage } from '../pages/schedule-filter/schedule-filter';
 import { SessionDetailPage } from '../pages/session-detail/session-detail';
@@ -39,7 +39,7 @@ import { SpeakerListPage } from '../pages/speaker-list/speaker-list';
 import { TabsPage } from '../pages/tabs-page/tabs-page';
 import { TutorialPage } from '../pages/tutorial/tutorial';
 import { SupportPage } from '../pages/support/support';
-import { AgmCoreModule } from 'angular2-google-map/core';
+
 
 
 import { ConferenceData } from '../providers/conference-data';
@@ -55,7 +55,7 @@ import { NewsPage } from '../pages/news/news';
 import { NewsArticlePage } from '../pages/news-article/news-article';
 import { LeadersPage } from '../pages/leaders/leaders';
 import { MorePage } from '../pages/more/more';
-import { BranchesPage } from '../pages/branches/branches';
+
 import { AboutUsPage } from '../pages/about-us/about-us';
 
 import { SocialPage } from '../pages/social/social';
@@ -64,7 +64,7 @@ import { TithingPage } from '../pages/tithing/tithing';
 import { ConnectPage } from '../pages/connect/connect';
 import { MinistriesPage } from '../pages/ministries/ministries';
 import { MinistryDetailsPage } from '../pages/ministry-details/ministry-details';
-import { LocationMapPage } from '../pages/location-map/location-map';
+
 
 import { WelcomePage } from '../pages/welcome/welcome';
 import { OnlinegivingPage } from './../pages/onlinegiving/onlinegiving';
@@ -131,7 +131,7 @@ import { InternationalPage } from './../pages/international/international';
     AboutPage,
     AccountPage,
     LoginPage,
-    MapPage,
+  
     PopoverPage,
     SchedulePage,
     ScheduleFilterPage,
@@ -153,7 +153,7 @@ import { InternationalPage } from './../pages/international/international';
     LeadersPage,
     MorePage,
     AboutUsPage,
-    BranchesPage,
+ 
     LeadersPage,
     MinistriesPage,
     ConnectPage,
@@ -162,7 +162,7 @@ import { InternationalPage } from './../pages/international/international';
     MusicPage,
     SocialPage,
     MinistryDetailsPage,
-    LocationMapPage,
+   
     SupportPage,
     WelcomePage,
     OnlinegivingPage,
@@ -201,9 +201,7 @@ VisionPage
   imports: [
     BrowserModule,
     HttpModule,
-    AgmCoreModule.forRoot({
-      apiKey: 'AIzaSyDMgyfWT7Ur55veBZKf-QZyvWEiFh8USGs'
-    }),
+   
     IonicModule.forRoot(ConferenceApp, {}, {
       links: [
         { component: TabsPage, name: 'TabsPage', segment: 'tabs-page' },
@@ -212,7 +210,7 @@ VisionPage
         { component: DevotionPage, name: 'Devotion', segment: 'devotion' },
         { component: WeeklydeclarationPage, name: 'Weeklydeclaration', segment: 'Weeklydeclaration' },
         { component: SpeakerDetailPage, name: 'SpeakerDetail', segment: 'speakerDetail/:speakerId' },
-        { component: MapPage, name: 'Map', segment: 'map' },
+     
         { component: AboutPage, name: 'About', segment: 'about' },
         { component: TutorialPage, name: 'Tutorial', segment: 'tutorial' },
         { component: SupportPage, name: 'SupportPage', segment: 'support' },
@@ -229,7 +227,7 @@ VisionPage
         { component: LeadersPage, name: 'LeadersPage', segment: 'leaders' },
         { component: MorePage, name: 'MorePage', segment: 'more' },
         { component: AboutUsPage, name: 'AboutUsPage', segment: 'aboutus' },
-        { component: BranchesPage, name: 'BranchesPage', segment: 'branches' },
+      
         { component: MinistriesPage, name: 'MinistriesPage', segment: 'ministries' },
         { component: ConnectPage, name: 'ConnectPage', segment: 'connect' },
         { component: MusicPage, name: 'MusicPage', segment: 'music' },
@@ -251,7 +249,7 @@ VisionPage
     AboutPage,
     AccountPage,
     LoginPage,
-    MapPage,
+   
     PopoverPage,
     SchedulePage,
     ScheduleFilterPage,
@@ -271,7 +269,7 @@ VisionPage
    NewsPage,
    MorePage,
     AboutUsPage,
-    BranchesPage,
+  
     LeadersPage,
     MinistriesPage,
     ConnectPage,
@@ -280,7 +278,7 @@ VisionPage
     SocialPage,
     NewsArticlePage,
     MinistryDetailsPage,
-    LocationMapPage,
+  
     SupportPage,
     WelcomePage,
     OnlinegivingPage,

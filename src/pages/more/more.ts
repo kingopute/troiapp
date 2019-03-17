@@ -5,7 +5,7 @@ import { ConnectPage } from './../connect/connect';
 import { VisionPage } from './../vision/vision';
 import { MinistriesPage } from './../ministries/ministries';
 import { LeadersPage } from './../leaders/leaders';
-import { BranchesPage } from './../branches/branches';
+
 import { AboutUsPage } from './../about-us/about-us';
 
 //import { FirsttimerpasscodePage } from './../firsttimerpasscode/firsttimerpasscode';
@@ -39,10 +39,7 @@ export class MorePage {
     this.navCtrl.push(AboutUsPage, {subitem: subitem});
   }
 
-  branches($event, subitem) {
-    this.navCtrl.push(BranchesPage, {subitem: subitem});
-  }
-
+  
   leaders($event, subitem) {
     this.navCtrl.push(LeadersPage, {subitem: subitem});
   }

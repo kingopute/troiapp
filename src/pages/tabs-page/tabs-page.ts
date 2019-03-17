@@ -3,7 +3,7 @@ import { Component } from '@angular/core';
 import { NavParams } from 'ionic-angular';
 
 import { AboutPage } from '../about/about';
-import { MapPage } from '../map/map';
+
 import { SermonsPage } from '../sermons/sermons';
 import { WelcomePage } from '../welcome/welcome';
 import { DevotionPage } from '../devotion/devotion';
