@@ -47,7 +47,7 @@ import { WeeklydeclarationdetailsPage } from './../pages/weeklydeclarationdetail
 import { GivingPage } from './../pages/giving/giving';
 import { StreamPage } from './../pages/stream/stream';
 
-import { OneSignal } from '@ionic-native/onesignal';
+
 
 import { ConferenceData } from '../providers/conference-data';
 import { UserData } from '../providers/user-data';
@@ -111,7 +111,7 @@ export class ConferenceApp {
     public confData: ConferenceData,
     public storage: Storage,
     public splashScreen: SplashScreen,
-    public oneSignal:OneSignal
+   
   ) {
       
       //Firebase Configuration
@@ -134,7 +134,7 @@ export class ConferenceApp {
         }
         this.platformReady()
 
-        this.initApp();
+      
 
       });
 
@@ -250,35 +250,7 @@ export class ConferenceApp {
 
 
 
-initApp(){
 
-    // this.statusBar.overlaysWebView(true);
-    //this.statusBar.backgroundColorByHexString('#ffffff');
-
-
-    this.oneSignal.startInit('e94ff665-7f20-4675-97e3-5ddd45828305', '351782808779');
-    
-    this.oneSignal.setSubscription(true);
-    //this.oneSignal.inFocusDisplaying(this.oneSignal.OSInFocusDisplayOption.InAppAlert);
-
-    this.oneSignal.handleNotificationReceived().subscribe(() => {
-      // do something when notification is received
-    });
-
-    this.oneSignal.handleNotificationOpened().subscribe(() => {
-      // do something when a notification is opened
-    });
-
-    this.oneSignal.endInit();
-
-    //this.ga.startTrackerWithId('UA-85xxxxx7-3')
-    //.then(() => {
-
-      //this.ga.trackView('App V3 Started');
-
-      // })
-      //.catch(e => console.log('Error starting GoogleAnalytics', e));
-    }
 
 
 

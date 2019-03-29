@@ -111,7 +111,7 @@ import { ReoccourringfirstfruitPage } from './../pages/reoccourringfirstfruit/re
 
 import { VisionPage } from './../pages/vision/vision';
 
-import { OneSignal } from '@ionic-native/onesignal';
+
 
 
 
@@ -321,7 +321,7 @@ VisionPage
     Calendar,
     SocialSharing,
     SplashScreen,
-     OneSignal,
+   
   ]
 })
 export class AppModule { }
